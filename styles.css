@@ -1,0 +1,8 @@
+.main-container {
+  max-width: 1170 px;
+  margin: 0 auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #aeabab;
+}
