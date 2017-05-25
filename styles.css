@@ -1,8 +1,55 @@
+* {
+  font-family: 'Arimo', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 16px;
+}
+
 .main-container {
   max-width: 1170 px;
   margin: 0 auto;
 }
 
+a.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand > img {
+  height: 50px;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #aeabab;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border: 0px;
+  max-height: 50px;
+  background-color: #fff;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1170px;
+}
+
+.man-banner {
+  background-image: url("img/banner_man.jpg");
+  background-position: bottom right;
+  width: 1170px;
+  height: 448px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container .jumbotron {
+    border-radius: 0px;
+    padding-top: 0px;
+}
+
+.promo-article {
+  display: flex;
 }
