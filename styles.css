@@ -8,7 +8,7 @@ body {
   font-size: 16px;
 }
 
-.main-container {
+.main-container .page-content {
   max-width: 1170 px;
   margin: 0 auto;
 }
@@ -39,17 +39,83 @@ a.navbar-brand {
 .man-banner {
   background-image: url("img/banner_man.jpg");
   background-position: bottom right;
+  background-size: auto 405px;
   width: 1170px;
-  height: 448px;
+  height: 405px;
   padding-left: 0px;
   padding-right: 0px;
+  margin-bottom: 15px;
+}
+
+.banner-info h1 {
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin: 55px 0px 30px 10px;
+}
+
+.banner-info h2 {
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.banner-info p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 40px;
+  background-image: linear-gradient(to top, #4B80BE 0%, #4B80BE 100%);
+  border-color: #4B80BE;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #4B80BE;
 }
 
 .container .jumbotron {
-    border-radius: 0px;
-    padding-top: 0px;
+  border-radius: 0px;
+  padding-top: 0px;
 }
 
-.promo-article {
-  display: flex;
+.media-list {
+  margin-bottom: 15px;
+  padding-left: 40px;
+}
+
+.media-text h3 {
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 21px;
+}
+
+.subscribe-block {
+  background-color: #17B7E7;
+}
+.subscribe-row {
+  padding: 40px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.subscribe {
+  margin-left: 30px;
+}
+
+.subscribe h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  padding-left: 3px;
+  font-size: 28px;
+}
+
+.subscribe-block > a > img {
+  margin-right: 10px;
 }
