@@ -2,6 +2,14 @@
   font-family: 'Arimo', sans-serif;
 }
 
+.row {
+  margin: 0px;
+}
+
+.text > h2 {
+  font-weight: 700;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
@@ -92,7 +100,7 @@ a.navbar-brand {
   margin: 10px;
   font-weight: bold;
   text-align: center;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .subscribe-block {
@@ -108,6 +116,16 @@ a.navbar-brand {
   margin-left: 30px;
 }
 
+.guests-promo-content {
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.lates-episodes {
+  margin-left: 30px;
+}
+
 .subscribe h3 {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -118,4 +136,166 @@ a.navbar-brand {
 
 .subscribe-block > a > img {
   margin-right: 10px;
+}
+
+.blue-text {
+  color: #17b8e7;
+}
+
+.guests-promo-content > div > h2, .page-header {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 9px;
+}
+
+.promo-row {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lates-episodes-row {
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+div.guest-man > h3, div.caption > h3 {
+  margin-top: 0px;
+  color: #17b8e7;
+}
+
+.guest-man {
+  padding-left: 40px;
+}
+
+.guest-man > p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.lates-episodes-block {
+  background-color: #191919;
+  color: #ffffff;
+}
+
+.page-header {
+  border-bottom: 0px;
+}
+
+.caption {
+  margin-top: 25px;
+}
+
+.caption > p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.caption > p > a:hover {
+  color: #17B7E7;
+  text-decoration: none;
+}
+
+.entries-link {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.episodes-button {
+  background-color: #191919;
+  padding: 5px 10px;
+  border: 2px solid #17b8e7;
+  width: 200px;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  color: #17b8e7;
+}
+.caption-button {
+  margin: 80px;
+}
+
+button:hover {
+  color: white;
+}
+
+.popular-episodes-text > h3 {
+  margin-top: 0px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.popular-episodes > h2 {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.episodes-box {
+  height: 170px;
+}
+
+.social-episodes {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.popular-episodes-text > p {
+  padding-left: 50px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.social-media > h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.social-media-box {
+  background-color: #CACACA;
+  height: 700px;
+}
+
+.social-media-links {
+  text-align: center;
+  list-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.7;
+  padding-top: 150px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 21px;
+}
+
+.footer-text {
+  background: #262626;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.consumption {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.consumption-row {
+  margin-left: 115px;
+  margin-bottom: 70px;
+  font-weight: 800;
+}
+
+.consumption-container {
+  background-color: #CACACA;
+}
+
+.footer-container {
+  background-color: #191919;
+  color: #ffffff;
 }
